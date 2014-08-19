@@ -13,15 +13,15 @@
 		8A21D6DA199CF57400BE4B80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A21D6D8199CF57400BE4B80 /* InfoPlist.strings */; };
 		8A21D6DC199CF57400BE4B80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A21D6DB199CF57400BE4B80 /* main.m */; };
 		8A21D6E0199CF57400BE4B80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A21D6DF199CF57400BE4B80 /* AppDelegate.m */; };
-		8A21D6E3199CF57400BE4B80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A21D6E1199CF57400BE4B80 /* Main.storyboard */; };
 		8A21D6E6199CF57400BE4B80 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A21D6E5199CF57400BE4B80 /* FirstViewController.m */; };
 		8A21D6E9199CF57400BE4B80 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A21D6E8199CF57400BE4B80 /* SecondViewController.m */; };
-		8A21D6EB199CF57400BE4B80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A21D6EA199CF57400BE4B80 /* Images.xcassets */; };
 		8A21D6F2199CF57400BE4B80 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A21D6F1199CF57400BE4B80 /* XCTest.framework */; };
 		8A21D6F3199CF57400BE4B80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A21D6CF199CF57400BE4B80 /* Foundation.framework */; };
 		8A21D6F4199CF57400BE4B80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A21D6D3199CF57400BE4B80 /* UIKit.framework */; };
 		8A21D6FC199CF57400BE4B80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A21D6FA199CF57400BE4B80 /* InfoPlist.strings */; };
 		8A21D6FE199CF57400BE4B80 /* ChatBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A21D6FD199CF57400BE4B80 /* ChatBoxTests.m */; };
+		8AEB60C019A25ED20066D21C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AEB60BE19A25ED20066D21C /* Main.storyboard */; };
+		8AEB60C119A25FAD0066D21C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A21D6EA199CF57400BE4B80 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,6 @@
 		8A21D6DD199CF57400BE4B80 /* ChatBox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChatBox-Prefix.pch"; sourceTree = "<group>"; };
 		8A21D6DE199CF57400BE4B80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8A21D6DF199CF57400BE4B80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8A21D6E2199CF57400BE4B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A21D6E4199CF57400BE4B80 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		8A21D6E5199CF57400BE4B80 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		8A21D6E7199CF57400BE4B80 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
@@ -56,6 +55,7 @@
 		8A21D6F9199CF57400BE4B80 /* ChatBoxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChatBoxTests-Info.plist"; sourceTree = "<group>"; };
 		8A21D6FB199CF57400BE4B80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8A21D6FD199CF57400BE4B80 /* ChatBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatBoxTests.m; sourceTree = "<group>"; };
+		8AEB60BF19A25ED20066D21C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 			children = (
 				8A21D6DE199CF57400BE4B80 /* AppDelegate.h */,
 				8A21D6DF199CF57400BE4B80 /* AppDelegate.m */,
-				8A21D6E1199CF57400BE4B80 /* Main.storyboard */,
+				8AEB60BE19A25ED20066D21C /* Main.storyboard */,
 				8A21D6E4199CF57400BE4B80 /* FirstViewController.h */,
 				8A21D6E5199CF57400BE4B80 /* FirstViewController.m */,
 				8A21D6E7199CF57400BE4B80 /* SecondViewController.h */,
@@ -233,9 +233,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A21D6EB199CF57400BE4B80 /* Images.xcassets in Resources */,
+				8AEB60C119A25FAD0066D21C /* Images.xcassets in Resources */,
+				8AEB60C019A25ED20066D21C /* Main.storyboard in Resources */,
 				8A21D6DA199CF57400BE4B80 /* InfoPlist.strings in Resources */,
-				8A21D6E3199CF57400BE4B80 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,20 +288,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		8A21D6E1199CF57400BE4B80 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8A21D6E2199CF57400BE4B80 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8A21D6FA199CF57400BE4B80 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8A21D6FB199CF57400BE4B80 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8AEB60BE19A25ED20066D21C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AEB60BF19A25ED20066D21C /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -462,6 +462,7 @@
 				8A21D703199CF57400BE4B80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A21D704199CF57400BE4B80 /* Build configuration list for PBXNativeTarget "ChatBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +471,7 @@
 				8A21D706199CF57400BE4B80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
